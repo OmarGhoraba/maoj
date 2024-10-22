@@ -1,0 +1,114 @@
+
+
+.footer{
+    background-image: url("../../assets/footerbg.png");
+    background-repeat: none;
+    background-size: cover;
+    
+
+
+}
+
+
+
+
+.container .first-sec .pic h2{
+    font:2rem;
+    color: white;
+}
+.container .first-sec h2 span{
+    color: #ffffff;
+}
+.overlay .footer .container .first-sec p{
+    font-size: 1.25rem;
+    color: #ececff;
+}
+.container .first-sec h3{
+    font-size: 1.25rem;
+    font-weight: bolder;
+    color: white;
+    margin:  auto;
+    border-bottom: 1px solid rgb(199, 196, 196) ;
+    padding: 0.5rem 4rem;
+
+
+}
+
+.container  i{
+    font-size: 1.5rem;
+    color: white ;
+
+}
+.container ul {
+    margin: auto;
+    padding-bottom: 3rem;
+}
+.container .first-sec ul li {
+    padding: 1rem;
+    list-style: none;
+    display: inline-block;
+
+}
+/* ======Sec-Sec===== */
+.sec-sec{
+    width: 50%;
+}
+.sec-sec h2{
+    color: white;
+    margin: 2.5rem 0 1rem 0;
+}
+.overlay.footer .container.sec-sec p{
+    font-size: 1.25rem;
+    color: white;
+    font-weight: .5rem;
+}
+.sec-sec input{
+    width: 70%;
+    padding: 0.65rem;
+}
+
+.sec-sec button i{
+    font-size: 1rem;
+    padding: 0.25rem;
+}
+.sec-sec h3{
+    margin: 1rem 0;
+    color: white;
+}
+
+
+.sec-sec  ul li{
+    color: white;
+    width: 45%;
+    font-weight: border;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 1.25rem;
+    padding: 0.25rem;
+
+}
+.thr-sec{
+    width: 25%;
+}
+.thr-sec h2{
+    color: white;
+    margin-top: 2.5rem ;
+}
+.thr-sec ul li{
+    list-style-type: none;
+    width: 100%;
+    padding: 1rem;
+}
+.thr-sec ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.thr-sec ul li span {
+    color: white;
+    padding: .5rem;
+    
+}
+.thr-sec ul li i{
+    color:#e41414;
+}
+

@@ -1,0 +1,15 @@
+.title-main{
+    color: #017FB2;
+}
+.detail {
+    background-image: url("../../assets/background.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.detail-box {
+    background-color: rgba(255, 255, 255, 0.7);
+
+  margin: 50px auto;
+    border-radius: 10px;
+
+}

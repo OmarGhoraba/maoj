@@ -1,0 +1,18 @@
+.card .image {
+      width: 90%;
+  height: 200px;
+  object-fit: cover;
+  
+}
+.main :hover{
+  transform: scale(1.1);
+  transition: 1000ms;
+}
+
+.link {
+  text-decoration: none;
+  
+}
+.main-head{
+ color : #017FB2;
+}
