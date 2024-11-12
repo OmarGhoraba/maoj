@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/moaj/static/css/main.06fb9529.css",
+    "main.js": "/moaj/static/js/main.03981a31.js",
+    "static/js/453.a6a97343.chunk.js": "/moaj/static/js/453.a6a97343.chunk.js",
+    "static/media/fa.jpg": "/moaj/static/media/fa.38bc4c115ecea41ebec3.jpg",
+    "static/media/aboutus.jpg": "/moaj/static/media/aboutus.1f00b944f16a33760edf.jpg",
+    "static/media/background.jpg": "/moaj/static/media/background.2ecd7175566b693a1a8b.jpg",
+    "static/media/vision.png": "/moaj/static/media/vision.479de1afec7b4ffd3ff2.png",
+    "static/media/ali.png": "/moaj/static/media/ali.c8c3b9cd953abfbf7671.png",
+    "static/media/omar2.png": "/moaj/static/media/omar2.b43373cbed34cfb3e4ee.png",
+    "static/media/amressam.png": "/moaj/static/media/amressam.8f4676757852f635355f.png",
+    "static/media/drahmed.jpg": "/moaj/static/media/drahmed.88d1f838488ef3d0d8d9.jpg",
+    "static/media/msg.png": "/moaj/static/media/msg.64fd85a5bff2f5fac329.png",
+    "static/media/omargh.png": "/moaj/static/media/omargh.80038e1a819ecd13d666.png",
+    "static/media/footerbg.png": "/moaj/static/media/footerbg.4414261980d7f1d272a8.png",
+    "static/media/abdullah.png": "/moaj/static/media/abdullah.d8818b5a631dc133f258.png",
+    "static/media/fa-solid-900.ttf": "/moaj/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/faculty.jpg": "/moaj/static/media/faculty.34332c4eba78677bd589.jpg",
+    "static/media/1.png": "/moaj/static/media/1.5b946d1c66d28d8d1826.png",
+    "static/media/fa-brands-400.ttf": "/moaj/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "/moaj/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/freshcart-logo.svg": "/moaj/static/media/freshcart-logo.7dba6ed2a56bc573368db5bcc4fea67f.svg",
+    "static/media/fa-brands-400.woff2": "/moaj/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/moaj/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/abouda.jpg": "/moaj/static/media/abouda.01e70f4d7841bf348ff7.jpg",
+    "static/media/drsamar.jpg": "/moaj/static/media/drsamar.a1be49d06d1e6ad0deeb.jpg",
+    "static/media/fa-regular-400.woff2": "/moaj/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/moaj/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/moaj/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "index.html": "/moaj/index.html",
+    "main.06fb9529.css.map": "/moaj/static/css/main.06fb9529.css.map",
+    "main.03981a31.js.map": "/moaj/static/js/main.03981a31.js.map",
+    "453.a6a97343.chunk.js.map": "/moaj/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06fb9529.css",
+    "static/js/main.03981a31.js"
+  ]
+}
