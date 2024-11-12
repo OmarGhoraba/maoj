@@ -1,7 +1,10 @@
-import React from 'react'
-import './Proccessing.css'
-export default function Proccessing() {
+import React from "react";
+import FetchCollectionDocuments from "../FetchCollectionDocuments/FetchCollectionDocuments";
+
+const processing = () => {
   return (
-    <div>Proccessing</div>
-  )
-}
+    <FetchCollectionDocuments collectionName="processing" title="Processing" />
+  );
+};
+
+export default processing;

@@ -22,12 +22,12 @@ export default function Home() {
         <div className="container " style={{ height: "100vh" }}>
           <div className="row h-100 justify-content-center align-items-center ">
             <div
-              className="col-8 text-center"
+              className="justify-content-center align-items-center text-center"
               data-aos="fade-up"
               data-aos-duration="2000"
             >
-              <p className="p-main fw-bolder mb-0">Welcome to</p>
-              <h1 className="main-title fw-bolder">MAOJ</h1>
+              <p className="p-main fw-bold mb-0">Welcome to</p>
+              <h1 className="main-title fw-bolder typing-effect">MAOJ</h1>
               <p className="p-main ">
                 We're the biggest, best platform to share your knowledge
               </p>
@@ -56,14 +56,11 @@ export default function Home() {
             </div>
 
             <div className="serv-item col-lg-6">
-              <p className="fw-bold ">
-                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
-                industry's standard dummy text ever Lorem Ipsum is simply dummy
-                text of the Lorem Ipsum has been the industry's standard dummy
-                text ever Lorem Ipsum is simply dummy text of the Lorem Ipsum
-                has been the industry's standard dummy text ever Lorem Ipsum is
-                simply dummy text of the Lorem Ipsum has been the industry's
-                standard dummy text ever
+              <p className="fw-bold fs-2 text-muted text-start">
+                To be the trusted leader in sustainable aquatic food processing
+                and preservation, delivering safe, high-quality marine products
+                that contribute to global food security and environmental
+                responsibility
               </p>
             </div>
           </div>
@@ -87,14 +84,13 @@ export default function Home() {
             data-aos-duration="2000"
           >
             <div className="serv-item col-lg-6">
-              <p className="fw-bold ">
-                Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
-                industry's standard dummy text ever Lorem Ipsum is simply dummy
-                text of the Lorem Ipsum has been the industry's standard dummy
-                text ever Lorem Ipsum is simply dummy text of the Lorem Ipsum
-                has been the industry's standard dummy text ever Lorem Ipsum is
-                simply dummy text of the Lorem Ipsum has been the industry's
-                standard dummy text ever
+              <p className="fw-bold fs-2 text-muted text-start">
+                To produce safe, premium aquatic foods and byproducts by using
+                advanced preservation and processing technologies. We prioritize
+                food safety and quality standards, sustainable sourcing, and
+                rigorous testing at every step, ensuring products meet the
+                highest industry standards while supporting local communities
+                and marine ecosystems.
               </p>
             </div>
             <div className="serv-item col-lg-6 ">

@@ -1,26 +1,22 @@
 import React, { useState, useEffect } from "react";
 import "./Details.css";
 import { useParams } from "react-router-dom";
-import { collection, getDocs } from "firebase/firestore";
+import { doc, getDoc } from "firebase/firestore"; // استخدم getDoc لجلب وثيقة واحدة
 import { db } from "../../FireBase/firebase";
 
-const FetchDocument = () => {
+const Details = () => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
-  let { id } = useParams(); 
-
+  const { id, collectionname } = useParams(); // استخدم useParams للحصول على collectionname و id
 
   const fetchDocument = async () => {
     try {
-      const querySnapshot = await getDocs(collection(db, "preservation"));
-      const dataList = [];
-      querySnapshot.forEach((doc) => {
-        dataList.push({ id: doc.id, ...doc.data() }); 
-      });
-      const filteredData = dataList.find((item) => item.id === id);
-      if (filteredData) {
-        setData(filteredData); 
+      const docRef = doc(db, collectionname, id); // استخدم collectionname و id
+      const docSnap = await getDoc(docRef);
+
+      if (docSnap.exists()) {
+        setData(docSnap.data()); // قم بتعيين بيانات الوثيقة
       } else {
         setError("Document not found");
       }
@@ -31,10 +27,14 @@ const FetchDocument = () => {
       setLoading(false);
     }
   };
-
+ 
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+  
   useEffect(() => {
     fetchDocument();
-  }, [id]); 
+  }, [id, collectionname]);
 
   return (
     <div>
@@ -42,10 +42,10 @@ const FetchDocument = () => {
       {error && <p>{error}</p>}
       {data && (
         <div className="detail p-5">
-          <div className="container detail-box  mb-5 ">
+          <div className="container detail-box mb-5">
             <h3 className="mb-4 text-center">
-              Preservation Method:{" "}
-              <h3 className="title-main fw-bold"> {data.title}</h3>
+              {" "}
+              <span className="title-main fw-bold"> {data.title}</span>
             </h3>
             <div className="row mt-5 mb-5">
               <div className="col-lg-6">
@@ -55,19 +55,47 @@ const FetchDocument = () => {
                   className="mx-2 w-100 me-2"
                 />
               </div>
-              <div className="dov col-lg-6">
-                <p className="fs-3">{data.d1}</p>
+              <div className="col-lg-6">
+                <p
+                  className="fs-3"
+                  dangerouslySetInnerHTML={{ __html: data.d1 }}
+                ></p>
               </div>
-              <div className="dov col-lg-12 mt-2">
-                <p className="fs-3">{data.d2}</p>
+              <div className="col-lg-12 mt-2">
+                <p
+                  className="fs-3"
+                  dangerouslySetInnerHTML={{ __html: data.d2 }}
+                ></p>
               </div>
-              <div className="dov col-lg-12 mt-2">
-                <p className="fs-3">{data.d3}</p>
+              <div className="col-lg-12 mt-2">
+                <p
+                  className="fs-3"
+                  dangerouslySetInnerHTML={{ __html: data.d3 }}
+                ></p>
               </div>
-              <div className="dov col-lg-12 mt-2">
-                <p className="fs-3 ">{data.d4}</p>
+              <div className="col-lg-12 mt-2">
+                <p className="fs-3">{data.d4}</p>
               </div>
             </div>
+            <div className="text-center pb-3">
+              <a
+                href={data.link}
+                className="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer" // لتجنب بعض المشاكل الأمنية
+              >
+                Read More
+              </a>
+            </div>
+          </div>
+          <div>
+            <button
+              className="bottom-up "
+              onClick={scrollToTop}
+              style={{ display: window.scrollY > 0 }}
+            >
+              <i class="fa-solid fa-plane-up text-white mt-1 ms-1 fs-3"></i>
+            </button>
           </div>
         </div>
       )}
@@ -75,4 +103,4 @@ const FetchDocument = () => {
   );
 };
 
-export default FetchDocument;
+export default Details;

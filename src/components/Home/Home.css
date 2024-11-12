@@ -9,3 +9,65 @@
   
     cursor: pointer;
 }
+.icon .fa-solid {
+    color : #017FB2
+}
+.p-main{
+    color: #017FB2;
+    font-size : 2rem ;
+}
+.fa-eye{
+  font-size: 3rem;
+}
+
+.main-title {
+    color: #017FB2;
+    font-size: 8rem;
+}
+.main-head {
+  background-image: url("../../assets/1.png");
+    background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.icon {
+    width: 60 ;
+    height: 60px;
+    background-color: #f4f4f4;
+    margin-left: 50%;
+    transform: translate(-50%);
+    transition: .5s;
+
+}
+.icon:hover{
+    background-color: #017FB2;
+    color: white;
+}
+.vision {
+  background-color:#f4f4f4;;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.typing-effect {
+  font-family: Arial, sans-serif;   
+  font-weight: bold;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  
+
+  animation: typing 2s steps(12) infinite alternate, blink 0.2s step-end infinite;
+}

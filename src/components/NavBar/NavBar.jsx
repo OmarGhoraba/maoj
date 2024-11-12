@@ -1,15 +1,14 @@
-import React from 'react'
-import './NavBar.module.css'
-import { Link } from 'react-router-dom'
+import React from "react";
+import "./NavBar.css";
+import { Link } from "react-router-dom";
 import logo from "../../assets/freshcart-logo.svg";
-
 
 export default function NavBar() {
   return (
     <>
-      <nav className="navbar navbar-expand-sm ">
-        <div className="container">
-          <Link className="navbar-brand" to="/">
+      <nav className="navbar navbar-expand-md">
+        <div className="container   ">
+          <Link className="navbar-brand " to="/">
             <img src={logo} alt="fresh cart logo" width={"120"} height={"60"} />
           </Link>
           <button
@@ -23,8 +22,11 @@ export default function NavBar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="collapsibleNavId">
-            <ul className="navbar-nav mx-auto mt-2 mt-lg-0  ">
+          <div
+            className="collapse navbar-collapse algin-content-center"
+            id="collapsibleNavId"
+          >
+            <ul className="navbar-nav ">
               <li className="nav-item">
                 <Link className="nav-link" to="/home">
                   Home
@@ -36,11 +38,33 @@ export default function NavBar() {
                   Food Safety
                 </Link>
               </li>
-
               <li className="nav-item">
-                <Link className="nav-link" to="/Futureplans">
-                  FuturePlans
+                <Link className="nav-link" to="/inspection">
+                  Inspection
                 </Link>
+              </li>
+              <li className="nav-item dropdown">
+                <Link
+                  className="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdownId"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  P.P.P
+                </Link>
+                <div className="dropdown-menu" aria-labelledby="dropdownId">
+                  <Link className="dropdown-item" to="Preservation">
+                    Preservation
+                  </Link>
+                  <Link className="dropdown-item" to="Proccessing">
+                    processing
+                  </Link>
+                  <Link className="dropdown-item" to="Packaging">
+                    Packaging
+                  </Link>
+                </div>
               </li>
 
               <li className="nav-item dropdown">
@@ -67,42 +91,9 @@ export default function NavBar() {
                 </div>
               </li>
 
-              <li className="nav-item dropdown">
-                <Link
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="dropdownId"
-                  data-bs-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  P.P.P
-                </Link>
-                <div className="dropdown-menu" aria-labelledby="dropdownId">
-                  <Link className="dropdown-item" to="Preservation">
-                    Preservation
-                  </Link>
-                  <Link className="dropdown-item" to="Proccessing">
-                    processing
-                  </Link>
-                  <Link className="dropdown-item" to="Packaging">
-                    Packaging
-                  </Link>
-                </div>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/GraduationProjects">
-                  GraduationProjects
-                </Link>
-              </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/aboutus">
                   AboutUs
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/refrances">
-                  Refrances
                 </Link>
               </li>
             </ul>

@@ -4,18 +4,19 @@ export default function Footer() {
   return (
     <>
       <div className="footer ">
-        <div className="container">
+        <div className="container container-foot">
           <div className="row">
             <div className="first-sec col-lg-4">
               <div className="pic">
                 <img src="./assets/.png" alt="" />
-                <h2 className='fs-1'>
+                <h2 className="fs-1">
                   MOAJ<span>.</span>
                 </h2>
               </div>
               <p className="text-white">
-                Mealify is a restaurant landing page that offers a delicious
-                dining experience to its customers.
+                We decided to put most of what is related to our department on
+                one site to help students research and also to be a reference
+                for everything related to manufacturing processes
               </p>
               <h3 className="m">Social Media</h3>
 
@@ -43,10 +44,9 @@ export default function Footer() {
               </p>
 
               <button className="btn btn-primary p-2">
-           
                 <i class="fa-solid fa-envelope "></i>subscribe
               </button>
-              <input type="text" className='p-2' />
+              <input type="text" className="p-2" />
             </div>
             <div class="thr-sec col-lg-4">
               <h2>Get in Touch</h2>

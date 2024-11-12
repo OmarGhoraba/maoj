@@ -1,7 +1,11 @@
-import React from 'react'
-import './Packaging.css'
-export default function Packaging() {
+// Example usage in another component
+import React from "react";
+import FetchCollectionDocuments from "../FetchCollectionDocuments/FetchCollectionDocuments";
+
+const packaging = () => {
   return (
-    <div>Packaging</div>
-  )
-}
+    <FetchCollectionDocuments collectionName="packaging" title="Packaging" />
+  );
+};
+
+export default packaging;
