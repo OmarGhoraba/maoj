@@ -74,7 +74,10 @@ const Details = () => {
                 ></p>
               </div>
               <div className="col-lg-12 mt-2">
-                <p className="fs-3">{data.d4}</p>
+                <p
+                  className="fs-3"
+                  dangerouslySetInnerHTML={{ __html: data.d4 }}
+                ></p>
               </div>
             </div>
             <div className="text-center pb-3">

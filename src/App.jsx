@@ -41,7 +41,7 @@ function App() {
       },
     ],
     {
-      basename: "/moaj",
+      basename: "/maoj",
     }
   );
   return <RouterProvider router={route}></RouterProvider>;

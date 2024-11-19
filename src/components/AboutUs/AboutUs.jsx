@@ -138,7 +138,7 @@ export default function AboutUs() {
                   className="rounded-circle w-50 mb-3 border border-3 border-primary"
                 />
                 <h2 className="text-primary text-center mb-2">
-                  Dr. Samar Shehab
+                  Dr. Manar Shehab
                 </h2>
                 <h4 className="text-secondary">Assistant Lecturer </h4>
                 <p className="text-center fw-bold m-0 text-secondary">
