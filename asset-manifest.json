@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maoj/static/css/main.9c89bcc9.css",
-    "main.js": "/maoj/static/js/main.cd57515d.js",
+    "main.js": "/maoj/static/js/main.de041558.js",
     "static/js/453.a6a97343.chunk.js": "/maoj/static/js/453.a6a97343.chunk.js",
     "static/media/fa.jpg": "/maoj/static/media/fa.38bc4c115ecea41ebec3.jpg",
     "static/media/aboutus.jpg": "/maoj/static/media/aboutus.1f00b944f16a33760edf.jpg",
@@ -30,11 +30,11 @@
     "static/media/fa-v4compatibility.woff2": "/maoj/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/maoj/index.html",
     "main.9c89bcc9.css.map": "/maoj/static/css/main.9c89bcc9.css.map",
-    "main.cd57515d.js.map": "/maoj/static/js/main.cd57515d.js.map",
+    "main.de041558.js.map": "/maoj/static/js/main.de041558.js.map",
     "453.a6a97343.chunk.js.map": "/maoj/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9c89bcc9.css",
-    "static/js/main.cd57515d.js"
+    "static/js/main.de041558.js"
   ]
 }
