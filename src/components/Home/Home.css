@@ -69,5 +69,5 @@
   overflow: hidden;
   
 
-  animation: typing 2s steps(12) infinite alternate, blink 0.2s step-end infinite;
+  animation: typing 3s steps(15) infinite alternate, blink 0.2s step-end infinite;
 }

@@ -45,15 +45,6 @@ export default function AboutUs() {
         <div className="container ">
           <h1 className="text-center my-4">About Us</h1>
           <div className="row mb-5 shadow ">
-            <div className="div d-flex align-items-center col-lg-6 bg-light">
-              <p className="fw-bold fs-4 text-secondary text-center ">
-                We are a team of students from the College of Fisheries and
-                Fisheries Sciences. We decided to put most of what is related to
-                our department on one site to help students research and also to
-                be a reference for everything related to manufacturing
-                processes.
-              </p>
-            </div>
             <div className="div col-lg-6 p-0 ">
               <div
                 id="carouselExampleAutoplaying"
@@ -98,6 +89,15 @@ export default function AboutUs() {
                 </button>
               </div>
             </div>
+            <div className="div d-flex align-items-center col-lg-6 bg-light">
+              <p className="fw-bold fs-4 text-secondary text-center ">
+                We are a team of students from the College of Fisheries and
+                Fisheries Sciences. We decided to put most of what is related to
+                our department on one site to help students research and also to
+                be a reference for everything related to manufacturing
+                processes.
+              </p>
+            </div>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@ export default function AboutUs() {
         <div className="container">
           <div className="row">
             <h2 className="text-center mb-5">Our Supervisors</h2>
-            <div className="div col-lg-6">
+            <div className="div col-lg-6 mt-5">
               <div className=" dr-samar d-flex flex-column align-items-center shadow rounded-3 pb-5 bg-light">
                 <img
                   src={drahmed}
@@ -115,7 +115,7 @@ export default function AboutUs() {
                 <h2 className="text-primary text-center mb-2">
                   Prof-Ahmed Tayel
                 </h2>
-                <h4 className="text-secondary">
+                <h4 className="text-secondary text-center">
                   Professor of food Biotechnology
                 </h4>
 
@@ -130,7 +130,7 @@ export default function AboutUs() {
               </div>
             </div>
 
-            <div className="div col-lg-6">
+            <div className="div col-lg-6 mt-5">
               <div className=" dr-samar d-flex flex-column align-items-center shadow rounded-3  bg-light">
                 <img
                   src={drsamar}
@@ -163,7 +163,10 @@ export default function AboutUs() {
                 <div className="img-area ">
                   <img className="w-100" src={img1} alt="" />
                 </div>
-                <h2>Omar Ghoraba</h2>
+                <h2 className="mt-3">Omar Ghoraba</h2>
+                <p className="text-muted">
+                  Department of Manufacturing and Biotechnology
+                </p>
               </div>
             </div>
             <div className="col-lg-4">
@@ -171,7 +174,10 @@ export default function AboutUs() {
                 <div className="img-area ">
                   <img className="w-100" src={img2} alt="" />
                 </div>
-                <h2>Omar Hossam</h2>
+                <h2 className="mt-3">Omar Hossam</h2>
+                <p className="text-muted">
+                  Department of Manufacturing and Biotechnology
+                </p>
               </div>
             </div>{" "}
             <div className="col-lg-4">
@@ -179,7 +185,10 @@ export default function AboutUs() {
                 <div className="img-area ">
                   <img className="w-100" src={img3} alt="" />
                 </div>
-                <h2>Amr Essam</h2>
+                <h2 className="mt-3">Amr Essam</h2>
+                <p className="text-muted">
+                  Department of Manufacturing and Biotechnology
+                </p>
               </div>
             </div>
             <div className="col-lg-4">
@@ -187,7 +196,10 @@ export default function AboutUs() {
                 <div className="img-area ">
                   <img className="w-100" src={img4} alt="" />
                 </div>
-                <h2>Abdallah Mohamed</h2>
+                <h2 className="mt-3">Abdallah Mohamed</h2>
+                <p className="text-muted">
+                  Department of Manufacturing and Biotechnology
+                </p>
               </div>
             </div>
             <div className="col-lg-4">
@@ -195,7 +207,10 @@ export default function AboutUs() {
                 <div className="img-area ">
                   <img className="w-100" src={img5} alt="" />
                 </div>
-                <h2>Abouda Ramadan</h2>
+                <h2 className="mt-3">Abouda Ramadan</h2>
+                <p className="text-muted">
+                  Department of Manufacturing and Biotechnology
+                </p>
               </div>
             </div>
             <div className="col-lg-4">
@@ -203,7 +218,10 @@ export default function AboutUs() {
                 <div className="img-area ">
                   <img className="w-100" src={img6} alt="" />
                 </div>
-                <h2>Ali el-hariry</h2>
+                <h2 className="mt-3">Ali el-hariry</h2>
+                <p className="text-muted">
+                  Department of Manufacturing and Biotechnology
+                </p>
               </div>
             </div>
           </div>

@@ -54,12 +54,13 @@ export default function Footer() {
                 <li>
                   {" "}
                   <i className="fa-solid fa-location-dot text-white"></i>
-                  <span>A108 Adam Street, New York, NY 535022</span>
+                  <span>Egypt, kfr-elshaikh , kfr-elshaikh University</span>
                 </li>
                 <li>
                   {" "}
                   <i className="fa-solid fa-envelope text-white"></i>
-                  <span>contact@example.com</span>
+                  <span>maoj@gmail
+                    .com</span>
                 </li>
                 <li>
                   {" "}
