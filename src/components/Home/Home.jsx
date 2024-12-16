@@ -5,6 +5,7 @@ import vision from '../../assets/vision.png'
 import msg from '../../assets/msg.png'
 import aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from 'react-router-dom'
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -27,10 +28,16 @@ export default function Home() {
               data-aos-duration="2000"
             >
               <p className="p-main fw-bold mb-0">Welcome to</p>
-              <h1 className="main-title fw-bolder typing-effect mb-0 pb-0">MAOJ</h1>
-              <p className="p-main p-0 fw-bold mt-0 ">Manufacturing Aquatic Organisms Jetty</p>
-              <button className="btn btn-primary">Learn More</button>
-              <button className="btn btn-success ml-2">Contact Us</button>
+              <h1 className="main-title fw-bolder typing-effect mb-0 pb-0">
+                MAOJ
+              </h1>
+              <p className="p-main p-0 fw-bold mt-0 ">
+                Manufacturing Aquatic Organisms Jetty
+              </p>
+              <Link to="/aboutus">
+                <button className="btn btn-primary">Learn More</button>
+              </Link>
+          
             </div>
           </div>
         </div>
@@ -41,7 +48,7 @@ export default function Home() {
           <h2 className="p-main fw-bolder" data-aos="fade-up">
             Our Vision
           </h2>
-        
+
           <div
             className="row text-center shadow p-4 bg-white m-4 "
             data-aos="fade-up"
@@ -70,7 +77,6 @@ export default function Home() {
           <h2 className="p-main fw-bolder" data-aos="fade-up">
             Our Massage
           </h2>
-        
 
           <div
             className="row text-center shadow p-4 bg-white m-4 "

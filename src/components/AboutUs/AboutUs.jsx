@@ -43,7 +43,9 @@ export default function AboutUs() {
     <>
       <div className="about pb-5">
         <div className="container ">
-          <h1 className="text-center my-4">About Us</h1>
+          <h1 className="text-center my-4" >
+            About Us
+          </h1>
           <div className="row mb-5 shadow ">
             <div className="div col-lg-6 p-0 ">
               <div
@@ -243,9 +245,9 @@ export default function AboutUs() {
           </div>
         </div>
       </div>
-      <div className="contact">
+      <div className="contact"  >
         <div className="container my-5">
-          <h2 className="text-center mb-4">Contact Us</h2>
+          <h2 className="text-center mb-4 " >Contact Us</h2>
           <div className="row justify-content-center">
             <div className="col-lg-12 ">
               <form

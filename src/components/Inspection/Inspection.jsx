@@ -1,7 +1,11 @@
-import React from 'react'
-import './Inspection.css'
-export default function Inspection() {
+// Example usage in another component
+import React from "react";
+import FetchCollectionDocuments from "../FetchCollectionDocuments/FetchCollectionDocuments";
+
+const inspection = () => {
   return (
-    <div>Inspection</div>
-  )
-}
+    <FetchCollectionDocuments collectionName="inspection" title="Food Inspection" />
+  );
+};
+
+export default inspection;
