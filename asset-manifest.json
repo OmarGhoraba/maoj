@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/maoj/static/css/main.45e1b289.css",
-    "main.js": "/maoj/static/js/main.c68e9412.js",
+    "main.css": "/maoj/static/css/main.0ec88b67.css",
+    "main.js": "/maoj/static/js/main.97f62fb8.js",
     "static/js/453.a6a97343.chunk.js": "/maoj/static/js/453.a6a97343.chunk.js",
     "static/media/fa.jpg": "/maoj/static/media/fa.38bc4c115ecea41ebec3.jpg",
     "static/media/aboutus.jpg": "/maoj/static/media/aboutus.1f00b944f16a33760edf.jpg",
@@ -29,12 +29,12 @@
     "static/media/fa-v4compatibility.ttf": "/maoj/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/maoj/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/maoj/index.html",
-    "main.45e1b289.css.map": "/maoj/static/css/main.45e1b289.css.map",
-    "main.c68e9412.js.map": "/maoj/static/js/main.c68e9412.js.map",
+    "main.0ec88b67.css.map": "/maoj/static/css/main.0ec88b67.css.map",
+    "main.97f62fb8.js.map": "/maoj/static/js/main.97f62fb8.js.map",
     "453.a6a97343.chunk.js.map": "/maoj/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.45e1b289.css",
-    "static/js/main.c68e9412.js"
+    "static/css/main.0ec88b67.css",
+    "static/js/main.97f62fb8.js"
   ]
 }
