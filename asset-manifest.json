@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/maoj/static/css/main.0ec88b67.css",
-    "main.js": "/maoj/static/js/main.97f62fb8.js",
+    "main.css": "/maoj/static/css/main.9e930014.css",
+    "main.js": "/maoj/static/js/main.6896aad2.js",
     "static/js/453.a6a97343.chunk.js": "/maoj/static/js/453.a6a97343.chunk.js",
     "static/media/fa.jpg": "/maoj/static/media/fa.38bc4c115ecea41ebec3.jpg",
     "static/media/aboutus.jpg": "/maoj/static/media/aboutus.1f00b944f16a33760edf.jpg",
     "static/media/background.jpg": "/maoj/static/media/background.2ecd7175566b693a1a8b.jpg",
     "static/media/vision.png": "/maoj/static/media/vision.479de1afec7b4ffd3ff2.png",
-    "static/media/ali.png": "/maoj/static/media/ali.c8c3b9cd953abfbf7671.png",
     "static/media/omar2.png": "/maoj/static/media/omar2.b43373cbed34cfb3e4ee.png",
     "static/media/amressam.png": "/maoj/static/media/amressam.8f4676757852f635355f.png",
     "static/media/drahmed.jpg": "/maoj/static/media/drahmed.88d1f838488ef3d0d8d9.jpg",
     "static/media/msg.png": "/maoj/static/media/msg.64fd85a5bff2f5fac329.png",
     "static/media/omargh.png": "/maoj/static/media/omargh.80038e1a819ecd13d666.png",
     "static/media/footerbg.png": "/maoj/static/media/footerbg.4414261980d7f1d272a8.png",
-    "static/media/abdullah.png": "/maoj/static/media/abdullah.d8818b5a631dc133f258.png",
+    "static/media/ali.jpg": "/maoj/static/media/ali.7a6ebcd5293348103456.jpg",
     "static/media/fa-solid-900.ttf": "/maoj/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/abdullah.jpg": "/maoj/static/media/abdullah.2cff5e4ca0f3001308ed.jpg",
     "static/media/faculty.jpg": "/maoj/static/media/faculty.34332c4eba78677bd589.jpg",
     "static/media/1.png": "/maoj/static/media/1.5b946d1c66d28d8d1826.png",
     "static/media/fa-brands-400.ttf": "/maoj/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -29,12 +29,12 @@
     "static/media/fa-v4compatibility.ttf": "/maoj/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
     "static/media/fa-v4compatibility.woff2": "/maoj/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/maoj/index.html",
-    "main.0ec88b67.css.map": "/maoj/static/css/main.0ec88b67.css.map",
-    "main.97f62fb8.js.map": "/maoj/static/js/main.97f62fb8.js.map",
+    "main.9e930014.css.map": "/maoj/static/css/main.9e930014.css.map",
+    "main.6896aad2.js.map": "/maoj/static/js/main.6896aad2.js.map",
     "453.a6a97343.chunk.js.map": "/maoj/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ec88b67.css",
-    "static/js/main.97f62fb8.js"
+    "static/css/main.9e930014.css",
+    "static/js/main.6896aad2.js"
   ]
 }
